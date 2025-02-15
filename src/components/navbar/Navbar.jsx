@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import styles from "./page.module.css";
+
 const links = [
   {
     id: 1,
@@ -35,9 +37,11 @@ const links = [
 
 const Navbar = () => {
   return (
-    <div className="navbarcontiner">
-      <Link href="/">Lamdev</Link>
-      <div>
+    <div className={styles.container}>
+      <Link href="/" className={styles.lamadev}>
+        Lamdev
+      </Link>
+      <div className={styles.navbaroptions}>
         {links.map((item) => (
           <Link key={item.id} href={item.url}>
             {item.title}
