@@ -4,9 +4,11 @@ import styles from "./page.module.css";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div>©2023 Lamamia. All rights reserved.</div>
+      <div className={styles.allrights}>
+        ©2023 Lamamia. All rights reserved.
+      </div>
       <ui className={styles.socialmedia}>
-        <li>
+        <li className={styles.socialmedia}>
           <img
             src="/1.png"
             width={15}
@@ -16,6 +18,20 @@ const Footer = () => {
           />
           <img
             src="/2.png"
+            width={15}
+            height={15}
+            className={styles.icon}
+            alt="Lama Dev"
+          />
+          <img
+            src="/3.png"
+            width={15}
+            height={15}
+            className={styles.icon}
+            alt="Lama Dev"
+          />
+          <img
+            src="/4.png"
             width={15}
             height={15}
             className={styles.icon}

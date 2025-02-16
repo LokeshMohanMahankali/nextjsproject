@@ -8,11 +8,21 @@
 }
 
 .lamadev {
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 100;
+  font-size: 20px;
+  color: rgb(228, 227, 227);
 }
 
 .navbaroptions {
   display: flex;
   gap: 20px;
+  font-size: 15px;
+  color: rgb(146, 144, 144);
+}
+
+.logout {
+  background-color: rgb(152, 254, 152);
+  color: white;
+  border-radius: 5px;
+  padding: 1px 1px;
 }
